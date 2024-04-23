@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cpu">
+        <item>Pineapple</item>
+        <item>1kg</item>
+        <item>5kg</item>
+        <item>10kg</item>
+    </string-array>
+
+    <string-array name="cpu_prices">
+        <item>₹30</item> <!-- Price for Ryzen 5600h -->
+        <item>₹150</item> <!-- Price for Ryzen 7700x -->
+        <item>₹300</item> <!-- Price for Ryzen 9900 -->
+    </string-array>
+
+    <string-array name="gpu">
+        <item>Orange</item>
+        <item>1kg</item>
+        <item>5kg</item>
+        <item>10kg</item>
+    </string-array>
+
+    <string-array name="gpu_prices">
+        <item>₹84</item> <!-- Price for Radeon 5600 -->
+        <item>₹420</item> <!-- Price for Radeon 6600X -->
+        <item>₹840</item> <!-- Price for Radeon 7700XT -->
+    </string-array>
+
+    <string-array name="ram">
+        <item>Kiwi</item>
+        <item>1kg</item>
+        <item>5kg</item>
+        <item>10kg</item>
+    </string-array>
+
+    <string-array name="ram_prices">
+        <item>₹300</item> <!-- Price for 8GB -->
+        <item>₹1500</item> <!-- Price for 16GB -->
+        <item>₹3000</item> <!-- Price for 32GB -->
+    </string-array>
+
+
+    <string-array name="mb">
+        <item>Passion Fruit</item>
+        <item>1kg</item>
+        <item>5kg</item>
+        <item>10kg</item>
+    </string-array>
+
+    <string-array name="mb_prices">
+        <item>360</item>
+        <item>1000</item>
+        <item>2000</item> <!-- Price for 32GB -->
+    </string-array>
+
+    <string-array name="ssd">
+        <item>Pears</item>
+        <item>1kg</item>
+        <item>5kg</item>
+        <item>10kg</item>
+    </string-array>
+
+    <string-array name="ssd_prices">
+        <item>₹200</item> <!-- Price for 8GB -->
+        <item>₹1,000</item> <!-- Price for 16GB -->
+        <item>₹2,000</item> <!-- Price for 32GB -->
+    </string-array>
+
+    <string-array name="psu">
+        <item>Peach</item>
+        <item>1kg</item>
+        <item>5kg</item>
+        <item>10kg</item>
+    </string-array>
+
+    <string-array name="psu_prices">
+        <item>₹320</item> <!-- Price for 8GB -->
+        <item>₹780</item> <!-- Price for 16GB -->
+        <item>₹1450</item> <!-- Price for 32GB -->
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+    <string-array name="icpu">
+        <item>Brocolli</item>
+        <item>1kg</item>
+        <item>5kg</item>
+        <item>10kg</item>
+    </string-array>
+
+    <string-array name="icpu_prices">
+        <item>₹30</item> <!-- Price for Ryzen 5600h -->
+        <item>₹150</item> <!-- Price for Ryzen 7700x -->
+        <item>₹300</item> <!-- Price for Ryzen 9900 -->
+    </string-array>
+
+    <string-array name="igpu">
+        <item>Ladiesfinger</item>
+        <item>1kg</item>
+        <item>5kg</item>
+        <item>10kg</item>
+    </string-array>
+
+    <string-array name="igpu_prices">
+        <item>₹84</item> <!-- Price for Radeon 5600 -->
+        <item>₹420</item> <!-- Price for Radeon 6600X -->
+        <item>₹840</item> <!-- Price for Radeon 7700XT -->
+    </string-array>
+
+    <string-array name="iram">
+        <item>Capsicum</item>
+        <item>1kg</item>
+        <item>5kg</item>
+        <item>10kg</item>
+    </string-array>
+
+    <string-array name="iram_prices">
+        <item>₹300</item> <!-- Price for 8GB -->
+        <item>₹1500</item> <!-- Price for 16GB -->
+        <item>₹3000</item> <!-- Price for 32GB -->
+    </string-array>
+
+
+    <string-array name="imb">
+        <item>Spinach</item>
+        <item>1kg</item>
+        <item>5kg</item>
+        <item>10kg</item>
+    </string-array>
+
+    <string-array name="imb_prices">
+        <item>360</item>
+        <item>1000</item>
+        <item>2000</item> <!-- Price for 32GB -->
+    </string-array>
+
+    <string-array name="issd">
+        <item>carrot</item>
+        <item>1kg</item>
+        <item>5kg</item>
+        <item>10kg</item>
+    </string-array>
+
+    <string-array name="issd_prices">
+        <item>₹200</item> <!-- Price for 8GB -->
+        <item>₹1,000</item> <!-- Price for 16GB -->
+        <item>₹2,000</item> <!-- Price for 32GB -->
+    </string-array>
+
+    <string-array name="ipsu">
+        <item>Tomato</item>
+        <item>1kg</item>
+        <item>5kg</item>
+        <item>10kg</item>
+    </string-array>
+
+    <string-array name="ipsu_prices">
+        <item>₹320</item> <!-- Price for 8GB -->
+        <item>₹780</item> <!-- Price for 16GB -->
+        <item>₹1450</item> <!-- Price for 32GB -->
+    </string-array>
+
+</resources>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vegies">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingTop="30dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="30dp"
+            android:textAlignment="center">
+
+            <TextView
+                android:id="@+id/amdtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Choose all reqired Vegies"
+                android:textColor="@color/red"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="Description of Image 1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/brocolli" />
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:entries="@array/icpu"
+                android:prompt="@string/image1_text" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="Description of Image 2"
+                android:scaleType="centerCrop"
+                android:src="@drawable/chilli" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:entries="@array/igpu"
+                android:prompt="@string/image2_text" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="Description of Image 2"
+                android:scaleType="centerCrop"
+                android:src="@drawable/capsicum" />
+
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:entries="@array/iram"
+                android:prompt="@string/image2_text" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="Description of Image 2"
+                android:scaleType="centerCrop"
+                android:src="@drawable/spinach" />
+
+            <Spinner
+                android:id="@+id/spinner4"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:entries="@array/imb"
+                android:prompt="@string/image2_text" />
+
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="Description of Image 2"
+                android:scaleType="centerCrop"
+                android:src="@drawable/veggie" />
+
+            <Spinner
+                android:id="@+id/spinner5"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:entries="@array/issd"
+                android:prompt="@string/image2_text" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="Description of Image 2"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tomato" />
+
+            <Spinner
+                android:id="@+id/spinner6"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:entries="@array/ipsu"
+                android:prompt="@string/image2_text" />
+
+            <TextView
+                android:id="@+id/totalPriceTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Price: ₹0"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/imageView3" />
+
+            <Button
+                android:id="@+id/completeButton"
+                android:layout_width="214dp"
+                android:layout_height="51dp"
+                android:layout_marginTop="96dp"
+                android:text="Done" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

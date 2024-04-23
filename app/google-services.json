@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1010888355416",
+    "project_id": "groceries-mani",
+    "storage_bucket": "groceries-mani.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010888355416:android:d9eaad0fdc81efc44fa42d",
+        "android_client_info": {
+          "package_name": "com.example.groceries_mani"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXLr45ffGu_E9WYoukGbn9Ks28bpaUYyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
